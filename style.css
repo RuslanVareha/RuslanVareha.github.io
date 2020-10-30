@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-size: cover;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    height: 100vh;
+}
+
+.form-section {
+    width: 300px;
+    min-height: 500px;
+    background-color: #105f8dad;
+    padding: 16px;
+    border-radius: 8px;
+    display: none;
+}
+
+.bounce-in-top {
+	animation: bounce-in-top 1.0s both;
+}
+
+.header {
+    height: 60px;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.container-fluid {
+    height: 100%;
+}
+
+.logo-link {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.logo-link:hover {
+    background-color: rgb(185, 49, 49);
+}
+
+.header-menu {
+    background-color: brown;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-link {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-linkAbout {
+    color: white;
+    font-size: 18px;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.menu-linkAbout:hover {
+    background-color: rgb(185, 49, 49);
+}
+
+.menu-linkWorks {
+    color: white;
+    font-size: 18px;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.menu-linkWorks:hover {
+    background-color: rgb(185, 49, 49);
+}
+
+.menu-linkContacts {
+    color: white;
+    font-size: 18px;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.menu-linkContacts:hover {
+    background-color: rgb(185, 49, 49);
+}
+
+.section {
+    height: 100vh;
+    padding-top: 60px;
+}
+/* ----------------------------------------- */
+#home {
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.home-title {
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+    color: white;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.home-name {
+  position: absolute;
+    right: 5%;
+    bottom: 13%;
+    color: white;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.main-photo {
+  border-style: solid;
+    width: 25%;
+    position: absolute;
+    right: 5%;
+    bottom: 250px;
+    animation: fade-in-right 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+
+.about-title {
+  position: absolute;
+  top: 111%;
+  left: 5%;
+  color: white;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.about-text {
+  position: absolute;
+  top: 120%;
+  left: 5%;
+  color: white;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.works-title {
+  position: absolute;
+  top: 211%;
+  left: 5%;
+  color: white;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.works-text {
+  position: absolute;
+  top: 220%;
+  left: 5%;
+  color: white;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.contacts-title {
+  position: absolute;
+  top: 311%;
+  left: 5%;
+  color: white;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.contacts-text {
+  position: absolute;
+  top: 320%;
+  color: white;
+  left: 5%;
+  animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.button-title {
+    position: absolute;
+    right: 5%;
+    bottom: 9%;
+    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.fas {
+    color: brown;
+    position: absolute;
+    right: 48%;
+    bottom: 3%;
+    font-size: 60px;
+    animation: bounce-top 1.3s both;
+}
+
+#about {
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#works {
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#contacts {
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* ------------------------------- */
+
+ @keyframes fade-in-right {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+ }
+
+ @keyframes bounce-top {
+    0% {
+      transform: translateY(-45px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(-24px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateY(-12px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateY(-6px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateY(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }  
+
+  @keyframes bounce-in-top {
+    0% {
+      transform: translateY(-500px);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      transform: translateY(-65px);
+      animation-timing-function: ease-in;
+    }
+    72% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    81% {
+      transform: translateY(-28px);
+      animation-timing-function: ease-in;
+    }
+    90% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    95% {
+      transform: translateY(-8px);
+      animation-timing-function: ease-in;
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+  }
