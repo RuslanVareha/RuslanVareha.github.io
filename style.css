@@ -115,14 +115,6 @@ html {
     animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-.home-name {
-  position: absolute;
-    right: 5%;
-    bottom: 13%;
-    color: white;
-    animation: fade-in-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
 .main-photo {
   border-style: solid;
     width: 25%;
@@ -182,6 +174,7 @@ html {
 }
 
 .button-title {
+    font-size: 150%;
     position: absolute;
     right: 5%;
     bottom: 9%;
